@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hamza Airlines - Каттамдар</title>
+<link rel="stylesheet" href="vc.css">
+</head>
+<body>
+  <script src="cript.js"></script>
+
+<!-- Навигация -->
+<nav>
+  <div class="logo">Hamza Airlines</div>
+  <div class="nav-links">
+    <a href="cv.html">Башкы бет</a>
+    <a href="Брондоо.html">Брондоо</a>
+    <a href="Каттамдар.html">Каттамдар</a>
+    <a href="Биз жонундо.html">Биз жөнүндө</a>
+  </div>
+</nav>
+
+<h1>Hamza аэропортунун (OSS) учуу расписаниеси</h1>
+
+<table class="flight-table">
+  <thead>
+    <tr>
+      <th>№</th>
+      <th>Учуу убактысы</th>
+      <th>Багыты</th>
+      <th>Авиакомпания</th>
+      <th>Рейс номери</th>
+      <th>Болжолдуу баа (KGS, бир тарап)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>03:50–04:10</td>
+      <td>Стамбул (IST / SAW)</td>
+      <td>Pegasus Airlines / Turkish Airlines</td>
+      <td>PC 703 / TK 347</td>
+      <td>8 500 – 14 000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>04:00–05:30</td>
+      <td>Кувейт (KWI)</td>
+      <td>Jazeera Airways</td>
+      <td>J9 676</td>
+      <td>12 000 – 18 000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>06:00–07:00</td>
+      <td>Стамбул (SAW)</td>
+      <td>Pegasus Airlines</td>
+      <td>PC 711</td>
+      <td>8 000 – 13 000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>07:20–08:30</td>
+      <td>Бишкек (FRU)</td>
+      <td>Avia Traffic / TezJet</td>
+      <td>YH 809 / TEZ 191</td>
+      <td>3 000 – 6 000</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>08:15–10:50</td>
+      <td>Москва (DME / SVO)</td>
+      <td>Ural Airlines / Avia Traffic</td>
+      <td>U6 2804 / YK 883</td>
+      <td>18 000 – 28 000</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Карта -->
+<div id="map" class="map"></div>
+
+<footer>
+  2026 Hamza Airlines, Ош, Кыргызстан<br>
+  Бардык укуктар корголгон
+</footer>
+
+<!-- Leaflet картасы (самолет каттай турган карта) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<div id="map" style="height:500px;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
